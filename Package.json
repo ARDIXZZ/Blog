@@ -1,0 +1,11 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Platform blog dengan panel admin lengkap",
+  "scripts": {
+    "start": "serve public"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
