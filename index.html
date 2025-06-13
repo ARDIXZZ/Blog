@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogKu - Platform Blogging Terbaik</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-blog"></i>
+                <span>BlogKu</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Kategori</a></li>
+                    <li><a href="#">Tentang</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn btn-outline" id="loginBtn">Masuk</button>
+                <button class="btn btn-primary" id="registerBtn">Daftar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="container">
+        <div class="main-content">
+            <h1>Artikel Terbaru</h1>
+            <div class="posts-container" id="postsContainer">
+                <!-- Artikel akan dimuat via JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="search-box">
+                <h3 class="sidebar-title">Pencarian</h3>
+                <div class="search-input">
+                    <input type="text" placeholder="Cari artikel..." id="searchInput">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            
+            <div class="categories">
+                <h3 class="sidebar-title">Kategori</h3>
+                <ul class="category-list" id="categoryList">
+                    <!-- Kategori akan dimuat via JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Tentang BlogKu</h3>
+                <p>Platform blogging terbaik di Indonesia dengan berbagai fitur menarik.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Kontak</h3>
+                <p>email: admin@blogku.id</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
